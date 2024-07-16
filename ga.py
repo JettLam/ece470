@@ -6,8 +6,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from deap import base, creator, tools, algorithms
 
-N_GENERATIONS = 1
-N_POPULATION = 5
+N_GENERATIONS = 20
+N_POPULATION = 50
 
 # Load dataset
 data = pd.read_csv('trimmed_data.csv')
